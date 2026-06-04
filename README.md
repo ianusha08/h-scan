@@ -1,43 +1,135 @@
-# Halo Scan
+# 🎥 H Scan
 
-## Overview
-Halo Scan is a frontend surveillance dashboard built to display CCTV-style video feeds and system alerts. It provides a structured UI for monitoring activity in a clean and scalable way.
+A modern surveillance dashboard UI designed to monitor CCTV-style video feeds and system alerts in a structured and scalable interface.
 
-## Tech Stack
-- React (Vite)
-- TypeScript
-- Tailwind CSS
-- shadcn/ui
+Built with **React, TypeScript, Tailwind CSS, and shadcn/ui**, Halo Scan focuses on creating a clean monitoring experience commonly found in security and surveillance platforms.
 
-## Features
-- Video feed display (CCTV-style UI)
-- Alert panel for notifications
-- Sidebar navigation
-- Dashboard stat cards
-- Reusable component-based architecture
+---
 
-## Project Structure
-- /src/components → UI components (VideoFeed, AlertPanel, Sidebar, etc.)
-- /src/assets → images and static files
-- /public → static assets
-- Config files → Vite, Tailwind, TypeScript
+## 📸 Preview
 
-## Getting Started
+> Add screenshots of the dashboard here.
 
-### Installation
+![Dashboard Preview](./assets/halo-scan-dashboard.png)
+
+---
+
+## ✨ Features
+
+* 📹 CCTV-style video feed interface
+* 🚨 Alert panel for security notifications
+* 📊 Dashboard statistics cards
+* 🧭 Sidebar navigation for quick access
+* 🧩 Reusable component-based architecture
+* 🎨 Responsive and modern UI design
+* ⚡ Fast development experience using Vite
+
+---
+
+## 🛠 Tech Stack
+
+| Category      | Technology   |
+| ------------- | ------------ |
+| Frontend      | React 18     |
+| Language      | TypeScript   |
+| Build Tool    | Vite         |
+| Styling       | Tailwind CSS |
+| UI Components | shadcn/ui    |
+| Icons         | Lucide React |
+
+---
+
+## 📁 Project Structure
+
+```text
+src/
+├── components/
+│   ├── VideoFeed
+│   ├── AlertPanel
+│   ├── Sidebar
+│   └── DashboardCards
+│
+├── assets/
+│   └── Images and static files
+│
+├── pages/
+│   └── Dashboard pages
+│
+└── App.tsx
+```
+
+---
+
+## 🚀 Getting Started
+
+### Install Dependencies
+
+```bash
 npm install
+```
 
-### Run Locally
+### Run Development Server
+
+```bash
 npm run dev
+```
 
-## Current Status
-Frontend UI is implemented. Backend and real-time features are not yet integrated.
+### Build for Production
 
-## Future Improvements
-- Backend integration
-- Real-time alerts
-- Authentication system
-- Data-driven analytics
+```bash
+npm run build
+```
 
-## Author
-Anusha
+---
+
+## 🎯 What I Learned
+
+Through this project, I practiced:
+
+* Building reusable React components
+* Structuring scalable frontend applications
+* Using TypeScript for type-safe development
+* Creating dashboard-style user interfaces
+* Working with Tailwind CSS utility classes
+* Managing UI consistency with component libraries
+
+---
+
+## 📌 Current Status
+
+✅ Frontend UI Completed
+
+🚧 Backend Integration Pending
+
+🚧 Real-time Alert System Pending
+
+🚧 Authentication System Pending
+
+---
+
+## 🚀 Future Improvements
+
+* Backend API integration
+* Real-time alert streaming
+* User authentication and authorization
+* Historical feed management
+* Analytics dashboard with charts
+* Role-based access control
+* Dark/Light mode support
+* Mobile responsive optimization
+
+---
+
+## 👩‍💻 Author
+
+**Anusha**
+
+BTech CSE (AI & ML)
+
+* Frontend Development
+* AI/ML Enthusiast
+* Open Source Learner
+
+GitHub: https://github.com/ianusha08
+
+---
